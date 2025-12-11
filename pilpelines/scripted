@@ -1,13 +1,13 @@
 node{
-    stages("Say Hello"){
+    stage("Say Hello"){
         echo "Hi Everyone!"
     }
 
-    stages("Hi Again"){
+    stage("Hi Again"){
         echo "Hello! how are you?"
     }
 
-    stages("Greet Response"){
+    stage("Greet Response"){
         echo "I am fine, Thank you!"
     }
 }
